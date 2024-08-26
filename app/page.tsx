@@ -1,8 +1,13 @@
+import UpcomingClasses from "@/components/UpcomingClasses";
+import WhiteBoard from "@/components/WhiteBoard";
+import WorkDisplay from "@/components/WorkDisplay";
 
 export default function Home() {
   return (
-    <h1>
-      Hello World
-    </h1>
+    <>
+      <WhiteBoard/>
+      <WorkDisplay/>
+      <UpcomingClasses/>
+    </>
   );
 }

@@ -3,9 +3,8 @@ import React from 'react';
 
 const AboutPage: React.FC = () => {
   return (
-    <div>
-      <h1>About Us</h1>
-      <p>This is the about page.</p>
+    <div className="w-screen h-screen bg-slate-100">
+        <h1>Whiteboard Page</h1>
     </div>
   );
 };
