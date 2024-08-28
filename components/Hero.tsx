@@ -1,8 +1,8 @@
 import BlurIn from "./magicui/blur-in"
-import WordRotate from "./magicui/word-rotate"
 import { VelocityScroll } from "./magicui/scroll-based-velocity"
+import React from "react"
 
-const Hero = () => {
+const Hero:React.FC = () => {
     return(
         <div className="w-screen h-screen bg-slate-100 flex justify-center items-center">
             <div className="flex flex-col">

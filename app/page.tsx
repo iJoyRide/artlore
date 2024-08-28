@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <>
       <Hero/>
-      <WhiteBoard/>
+      {/* <WhiteBoard/> */}
       <WorkDisplay/>
       <UpcomingClasses/>
     </>
